@@ -175,21 +175,6 @@ The Grafana dashboard includes panels for:
 * Network receive traffic
 * Network transmit traffic
 
----
-
-## Screenshots
-
-### Prometheus Targets
-
-![Prometheus Targets](screenshots/prometheus-targets-up.png)
-
-### Grafana Dashboard
-
-![Grafana Dashboard](screenshots/grafana-dashboard.png)
-
-### Node Exporter Metrics
-
-![Node Exporter Metrics](screenshots/node-exporter-metrics.png)
 
 ---
 
@@ -220,11 +205,6 @@ Through this project, I learned:
 
 ---
 
-## Resume Summary
-
-**Linux Server Monitoring Automation Project**
-
-Built a Linux server monitoring system using Prometheus, Node Exporter, Grafana, and Ansible. Automated service installation and configuration using Ansible playbooks. Configured Prometheus to collect real-time system metrics from a Linux server and created Grafana dashboard panels to visualize CPU, memory, disk, uptime, and network usage.
 
 ---
 

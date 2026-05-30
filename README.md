@@ -84,10 +84,17 @@ Prometheus collects system metrics from Node Exporter, and Grafana visualizes th
 linux-monitoring-automation/
 
 ├── ansible/
-│   ├── inventory.ini
-│   ├── install_node_exporter.yml
-│   ├── install_prometheus.yml
-│   └── install_grafana.yml
+│   
+        ├── inventory.ini
+│       
+
+        ├── install_node_exporter.yml
+│   
+
+        ├── install_prometheus.yml
+│     
+
+        └── install_grafana.yml
 │
 
 ├── prometheus/

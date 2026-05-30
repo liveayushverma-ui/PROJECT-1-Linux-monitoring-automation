@@ -211,7 +211,7 @@ Through this project, I learned:
 
 Created as a hands-on DevOps and Linux administration project.
 
-=======
+
 | Monitoring Server          |
 
                          

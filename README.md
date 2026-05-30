@@ -1,5 +1,4 @@
 # Linux Server Monitoring Automation Project
-
 ## Project Overview
 
 
@@ -10,6 +9,7 @@ This project is a hands-on Linux and DevOps monitoring setup built using
 **Ansible**.
 
 The project demonstrates how a Linux server can be monitored in real time by collecting system metrics such as CPU usage, memory usage, disk usage, uptime, and network traffic. The installation and configuration process is automated using Ansible playbooks.
+
 
 ---
 
@@ -32,24 +32,23 @@ Prometheus collects system metrics from Node Exporter, and Grafana visualizes th
 
 ## Architecture
 
-
-
 +--------------------------------+
 | Monitoring Server              |
 |                                |
 | Prometheus :9090               |
 | Grafana    :3000               |
-+---------------+----------------+
-                |
-                | Scrapes metrics
-                |
++--------------------------------+
+
+                
+
+
 +---------------v----------------+
 | Target Linux Server            |
 |                                |
 | Node Exporter :9100            |
 | Linux System Metrics           |
 +--------------------------------+
-```
+
 
 ---
 
